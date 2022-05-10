@@ -2,7 +2,9 @@ import React from 'react';
 
 function Header(){
     return <header>
-        <h1>Corkboard</h1>
+    <a href='/'>
+        <img className='logo' src={require('../images/logo.png')} />
+    </a>
     </header>
 }
 
